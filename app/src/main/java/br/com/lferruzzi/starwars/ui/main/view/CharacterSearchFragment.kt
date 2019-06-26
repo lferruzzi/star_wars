@@ -1,4 +1,4 @@
-package br.com.lferruzzi.starwars.main.view
+package br.com.lferruzzi.starwars.ui.main.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import br.com.lferruzzi.starwars.R
-import br.com.lferruzzi.starwars.main.viewmodel.SearchCharacterViewModel
+import br.com.lferruzzi.starwars.ui.main.viewmodel.SearchCharacterViewModel
 import kotlinx.android.synthetic.main.fragment_character_search.characterSearchView
 import org.koin.android.viewmodel.ext.android.viewModel
 

@@ -1,4 +1,4 @@
-package br.com.lferruzzi.starwars.main.view
+package br.com.lferruzzi.starwars.ui.main.view
 
 import android.content.Context
 import android.os.Bundle
@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
 import br.com.lferruzzi.starwars.R
-import br.com.lferruzzi.starwars.main.viewmodel.CharacterListViewModel
+import br.com.lferruzzi.starwars.ui.main.viewmodel.CharacterListViewModel
 import br.com.lferruzzi.starwars.model.Character
 import org.koin.android.viewmodel.ext.android.viewModel
 

@@ -4,28 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main.view.MainActivity">
+    tools:context=".ui.main.view.MainActivity">
 
     <fragment
         android:id="@+id/characterSearchFragment"
-        android:name="br.com.lferruzzi.starwars.main.view.CharacterSearchFragment"
+        android:name="br.com.lferruzzi.starwars.ui.main.view.CharacterSearchFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:context=".main.view.MainActivity" />
-
+        tools:context=".ui.main.view.MainActivity" />
 
     <fragment
         android:id="@+id/characterListFragment"
-        android:name="br.com.lferruzzi.starwars.main.view.CharacterListFragment"
+        android:name="br.com.lferruzzi.starwars.ui.main.view.CharacterListFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/characterSearchFragment"
-        tools:context=".main.view.MainActivity" />
+        tools:context=".ui.main.view.MainActivity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

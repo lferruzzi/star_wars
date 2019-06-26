@@ -10,5 +10,7 @@ data class Character(
     @SerializedName("species")
     val specieUrls: List<String>,
     @SerializedName("films")
-    val filmUrls: List<String>
+    val filmUrls: List<String>,
+    @SerializedName("url")
+    val url: String
 )

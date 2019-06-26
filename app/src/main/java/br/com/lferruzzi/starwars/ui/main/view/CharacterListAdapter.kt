@@ -1,4 +1,4 @@
-package br.com.lferruzzi.starwars.main.view
+package br.com.lferruzzi.starwars.ui.main.view
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import br.com.lferruzzi.starwars.R
-import br.com.lferruzzi.starwars.main.view.CharacterListFragment.OnListFragmentInteractionListener
+import br.com.lferruzzi.starwars.ui.main.view.CharacterListFragment.OnListFragmentInteractionListener
 import br.com.lferruzzi.starwars.model.Character
 import kotlinx.android.synthetic.main.fragment_character_list_item.view.*
 import kotlin.properties.Delegates
